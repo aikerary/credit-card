@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'iconitos';
+    src:  url('../fonts/iconos/icomoon.eot?snhoqy');
+    src:  url('../fonts/iconos/icomoon.eot?snhoqy#iefix') format('embedded-opentype'),
+      url('../fonts/iconos/icomoon.ttf?snhoqy') format('truetype'),
+      url('../fonts/iconos/icomoon.woff?snhoqy') format('woff'),
+      url('../fonts/iconos/icomoon.svg?snhoqy#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'halter';
+    src: url('../fonts/halter/HALTER__.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'halter';
+}
+
+body {
+    min-height: 100vh;
+    display: -webkit-box;
+}
+
+.card {
+    background: #7284aa;
+    width: fit-content;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card .iconos .sim::before {
+    font-family: 'iconitos';
+    content: '\e900';
+    font-size: 30px;
+    color: #ffd950;
+}
+
+.card .iconos .wifi::after {
+    font-family: 'iconitos';
+    content: '\e91b';
+    font-size: 20px;
+    color: #FFFFFF;
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.card .number h1 {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.card .number p {
+    color: #FFFFFF;
+    font-size: 8px;
+}
+
+.card .valid {
+    text-align: center;
+}
+
+.card .valid p, .card .valid h2 {
+    display: inline-block;
+    font-size: 8px;
+    color: #FFFFFF;
+}
+
+.card .valid p {
+    text-transform: uppercase;
+    font-size: 4px;
+}
+
+.card .valid h2 {
+   vertical-align: middle; 
+}
+
+.card .data {
+    margin-top: 10px;
+    position: relative;
+}
+
+.card .data h2,  .card .data img {
+    display: inline-block;
+}
+
+.card .data img {
+    height: auto;
+    width: 50px;
+    position: absolute;
+    right: 0;
+}
+
+.card .data h2 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 14px;
+}
