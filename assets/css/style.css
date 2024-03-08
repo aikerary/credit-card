@@ -18,7 +18,7 @@ body {
     width: 20%;
     margin: auto;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .icons{
@@ -51,12 +51,13 @@ body {
 
 .card .number h1 {
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .card .number p {
     color: #FFFFFF;
-    font-size: 8px;
+    font-family: sans-serif;
+    font-size: 12px;
 }
 
 .card .valid {
@@ -71,11 +72,15 @@ body {
 
 .card .valid p {
     text-transform: uppercase;
-    font-size: 4px;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255, 0.6);
+    text-shadow: none;
 }
 
 .card .valid h2 {
    vertical-align: middle; 
+   font-size: large;
 }
 
 .card .data {
@@ -99,7 +104,7 @@ body {
 .card .data h2 {
     text-transform: uppercase;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .card .logo{
