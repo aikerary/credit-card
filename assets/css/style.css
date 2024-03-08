@@ -22,10 +22,6 @@ body {
     border-radius: 12px;
 }
 
-.icons{
-    display: flex;
-}
-
 .card .sim {
     background-size:contain;
 	background-position:center;
