@@ -11,6 +11,7 @@ html {
 body {
     min-height: 100vh;
     display: -webkit-box;
+    background-color:#545a51;
 }
 
 .card {
