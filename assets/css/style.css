@@ -16,10 +16,11 @@ body {
 
 .card {
     background: #7284aa;
-    width: 20%;
+    width: 444px;
     margin: auto;
     padding: 30px;
     border-radius: 12px;
+    height: 240px;
 }
 
 .card .sim {
