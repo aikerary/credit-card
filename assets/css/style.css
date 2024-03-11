@@ -1,113 +1,116 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-family: 'finess', sans-serif;
-    text-shadow:-1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+  font-family: "finess", sans-serif;
+  text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3),
+    1px 1px 0px rgba(0, 0, 0, 0.8);
 }
 
 body {
-    min-height: 100vh;
-    display: -webkit-box;
-    background-color:#545a51;
+  min-height: 100vh;
+  display: -webkit-box;
+  background-color: #545a51;
 }
 
 .card {
-    background: #7284aa;
-    width: 444px;
-    margin: auto;
-    padding: 30px;
-    border-radius: 12px;
-    height: 240px;
+  background: #7284aa;
+  width: 444px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  height: 240px;
 }
 
 .card .sim {
-    background-size:contain;
-	background-position:center;
-	background-repeat:no-repeat;
-    width:55px;
-	height:40px;
-	margin:20px 0;
-	border-radius:8px;
-	background-color:#ffd950;
-    background-image: url('data:image/svg+xml,%3Csvg version="1.1" xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" xmlns%3Axlink="http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink" x="0px" y="0px" width="52.603px" height="27.424px" viewBox="22.897 64.288 52.603 27.424" enable-background="new 22.897 64.288 52.603 27.424" xml%3Aspace="preserve"%3E%3Crect x="72.407" y="79.211" fill="none" width="1.025" height="6.497"%2F%3E%3Cpath fill="%23444" d="M41.963%2C84.221v4.517c0%2C0.546-0.445%2C0.993-0.991%2C0.993H22.897v1.981h18.075h26.153H75.5v-1.981h-8.375 c-0.546%2C0-0.991-0.447-0.991-0.993v-4.517c0-0.546%2C0.445-0.989%2C0.991-0.989H75.5v-1.984c-1.865%2C0-8.375%2C0-8.375%2C0 c-0.546%2C0-0.991-0.444-0.991-0.99V75.74c0-0.546%2C0.445-0.989%2C0.991-0.989H75.5v-1.985h-8.375c-1.64%2C0-2.975%2C1.335-2.975%2C2.973v4.518 c0%2C0.764%2C0.302%2C1.455%2C0.776%2C1.981c-0.474%2C0.527-0.776%2C1.22-0.776%2C1.982v4.517c0%2C0.35%2C0.072%2C0.68%2C0.185%2C0.993H43.763 c0.111-0.313%2C0.182-0.642%2C0.182-0.993V84.22c0-0.761-0.297-1.455-0.771-1.982c0.474-0.526%2C0.771-1.216%2C0.771-1.981v-4.518 c0-0.762-0.297-1.453-0.771-1.981c0.474-0.527%2C0.771-1.217%2C0.771-1.982V67.26c0-0.349-0.071-0.678-0.182-0.99H75.5v-1.982H40.971 H22.897v1.982h18.075c0.546%2C0%2C0.991%2C0.444%2C0.991%2C0.99v4.516c0%2C0.546-0.445%2C0.991-0.991%2C0.991H22.897v1.984h18.075 c0.546%2C0%2C0.991%2C0.443%2C0.991%2C0.989v4.518c0%2C0.546-0.445%2C0.99-0.991%2C0.99H22.897v1.984h18.075 C41.518%2C83.232%2C41.963%2C83.675%2C41.963%2C84.221z"%2F%3E%3C%2Fsvg%3E');
-	background-size:55px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 40px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #ffd950;
+  background-image: url('data:image/svg+xml,%3Csvg version="1.1" xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" xmlns%3Axlink="http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink" x="0px" y="0px" width="52.603px" height="27.424px" viewBox="22.897 64.288 52.603 27.424" enable-background="new 22.897 64.288 52.603 27.424" xml%3Aspace="preserve"%3E%3Crect x="72.407" y="79.211" fill="none" width="1.025" height="6.497"%2F%3E%3Cpath fill="%23444" d="M41.963%2C84.221v4.517c0%2C0.546-0.445%2C0.993-0.991%2C0.993H22.897v1.981h18.075h26.153H75.5v-1.981h-8.375 c-0.546%2C0-0.991-0.447-0.991-0.993v-4.517c0-0.546%2C0.445-0.989%2C0.991-0.989H75.5v-1.984c-1.865%2C0-8.375%2C0-8.375%2C0 c-0.546%2C0-0.991-0.444-0.991-0.99V75.74c0-0.546%2C0.445-0.989%2C0.991-0.989H75.5v-1.985h-8.375c-1.64%2C0-2.975%2C1.335-2.975%2C2.973v4.518 c0%2C0.764%2C0.302%2C1.455%2C0.776%2C1.981c-0.474%2C0.527-0.776%2C1.22-0.776%2C1.982v4.517c0%2C0.35%2C0.072%2C0.68%2C0.185%2C0.993H43.763 c0.111-0.313%2C0.182-0.642%2C0.182-0.993V84.22c0-0.761-0.297-1.455-0.771-1.982c0.474-0.526%2C0.771-1.216%2C0.771-1.981v-4.518 c0-0.762-0.297-1.453-0.771-1.981c0.474-0.527%2C0.771-1.217%2C0.771-1.982V67.26c0-0.349-0.071-0.678-0.182-0.99H75.5v-1.982H40.971 H22.897v1.982h18.075c0.546%2C0%2C0.991%2C0.444%2C0.991%2C0.99v4.516c0%2C0.546-0.445%2C0.991-0.991%2C0.991H22.897v1.984h18.075 c0.546%2C0%2C0.991%2C0.443%2C0.991%2C0.989v4.518c0%2C0.546-0.445%2C0.99-0.991%2C0.99H22.897v1.984h18.075 C41.518%2C83.232%2C41.963%2C83.675%2C41.963%2C84.221z"%2F%3E%3C%2Fsvg%3E');
+  background-size: 55px;
 }
 
-.card .sim::after{
-    font-family: 'iconitos';
-    content: '\e91b';
-    font-size: 35px;
-    color: #FFFFFF;
-    display: inline-block;
-    transform: rotate(90deg);
-    margin-left: 100%;
-    text-shadow: none;
+.card .sim::after {
+  font-family: "iconitos";
+  content: "\e91b";
+  font-size: 35px;
+  color: #ffffff;
+  display: inline-block;
+  transform: rotate(90deg);
+  margin-left: 100%;
+  text-shadow: none;
 }
 
 .card .number h1 {
-    color: #FFFFFF;
-    font-size: 27px;
+  color: #ffffff;
+  font-size: 27px;
 }
 
 .card .number p {
-    color: #FFFFFF;
-    font-family: sans-serif;
-    font-size: 12px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 12px;
 }
 
 .card .valid {
-    text-align: center;
+  text-align: center;
 }
 
-.card .valid p, .card .valid h2 {
-    display: inline-block;
-    font-size: 8px;
-    color: #FFFFFF;
+.card .valid p,
+.card .valid h2 {
+  display: inline-block;
+  font-size: 8px;
+  color: #ffffff;
 }
 
 .card .valid p {
-    text-transform: uppercase;
-    font-size: 12px;
-    font-family:Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255, 0.6);
-    text-shadow: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255, 0.6);
+  text-shadow: none;
 }
 
 .card .valid h2 {
-   vertical-align: middle; 
-   font-size: large;
+  vertical-align: middle;
+  font-size: large;
 }
 
 .card .data {
-    margin-top: 10px;
-    position: relative;
+  margin-top: 10px;
+  position: relative;
 }
 
-.card .data h2,  .card .data img {
-    display: inline-block;
+.card .data h2,
+.card .data img {
+  display: inline-block;
 }
 
 .card .data img {
-    height: fit-content;
-    width: 70px;
-    background: white;
-    position: absolute;
-    right: 0;
-    padding: 2%;
+  height: fit-content;
+  width: 70px;
+  background: white;
+  position: absolute;
+  right: 0;
+  padding: 2%;
 }
 
 .card .data h2 {
-    text-transform: uppercase;
-    color: #FFFFFF;
-    font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 20px;
 }
 
-.card .logo{
-    font-family: sans-serif;
-    text-shadow: none;
-    color: rgb(255, 255, 255, 0.8);
-    font-size: 25px;
+.card .logo {
+  font-family: sans-serif;
+  text-shadow: none;
+  color: rgb(255, 255, 255, 0.8);
+  font-size: 25px;
 }
